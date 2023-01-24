@@ -1,0 +1,55 @@
+{
+"description": "Реквизиты СЗ о подготовке исходящего нематериального иска",
+"isDeleted": false,
+"isNew": false,
+"properties": [],
+"reportField": "IN_CH127",
+"reportFieldType": "STR",
+"reportFieldTypeDescription": "string",
+"reportID": "LAWSUIT-PROCESS-IN-224",
+"rowAction": "CHANGE",
+"sortSequence": 1,
+"visible": true
+}
+
+[
+    ["to", "properties", "properties"],
+    ["to", "isDeleted", "isDeleted"],
+    ["to", "isNew", "isNew"],
+    ["to", "visible", "visibleSwitch"],
+    ["to", "reportFieldType", "reportFieldTypeLookup"],
+    ["to", "sortSequence", "sortSequence"],
+   
+    ["new", "description", ""],
+    ["new", "reportFieldCd", ""],
+
+    ["edit", "reportFieldType", "STRING"],
+    ["edit", "sortSequence", ""]
+]
+
+{ 
+    "properties": [], 
+    "isDeleted": false, 
+    "isNew": false, 
+    "visibleSwitch": true, 
+    "reportFieldTypeLookup": "STRING", 
+    "sortSequence": "", 
+    "description": "", 
+    "reportFieldCd": "" 
+}
+
+{
+    "edit": {
+
+    },
+    "to": {
+        "properties": "properties",
+        "isDeleted": "isDeleted",
+    },
+    "new": {
+
+    },
+    "type": {
+
+    }
+}
